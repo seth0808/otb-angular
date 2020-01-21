@@ -1,0 +1,10 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<div id="container">
+    <div class="resultItem" *ngFor="let result of resultData">
+        <a href={{result.link}}>
+            <img class="profile" src={{result.img}}/>
+            <p>{{result.name}} | Search Matches: {{result.count}}</p>
+        </a>
+    </div>   
+    <img *ngIf="searchFlag" id="placeholder" src="https://media.giphy.com/media/Sg86rhq4G3vqM/source.gif"/> 
+</div>

@@ -1,0 +1,31 @@
+#container {
+    position: relative;
+    margin: auto;
+    min-width: 300px;
+    max-width: 700px;
+    height: 100px;
+    background-color: rgba(240, 240, 250);
+    border: 3px solid rgb(239,223,119);
+    box-shadow: 5px 5px 8px #888888;
+    border-radius: 5px;
+    background-image: url("https://media.giphy.com/media/6oeRBKg7mwEZnSnYkn/source.gif");
+    background-repeat: no-repeat;
+    background-size: 700px;
+}
+input {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    margin: 2%;
+    width: 94%;
+    font-size:30px;
+    text-align: center
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    text-align:center;
+    bottom: 0px;
+    width: 100%;
+    color: white
+
+}

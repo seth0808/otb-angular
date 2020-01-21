@@ -1,0 +1,5 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<h1>Omega Thetabase</h1>
+<app-search-bar (messageEvent)="receiveMessage($event)" ></app-search-bar>
+<app-results [cmessage]="pmessage"></app-results>
+<router-outlet></router-outlet>

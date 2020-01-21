@@ -3,4 +3,4 @@
 
 1. Clone the repo
 2. Run project using
-  ng serve
+  'ng serve'
